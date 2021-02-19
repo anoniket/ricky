@@ -16,7 +16,7 @@ function Card(props){
     useEffect(()=>{
      setModalData(props.passedArr);
     
-    },[])
+    },[props.passedArr])
    
     
    
