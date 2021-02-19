@@ -1,0 +1,112 @@
+.mainH{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f6f8;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 10%;
+}
+
+.mainH .head{
+    margin-bottom: 3%;
+    font-size: 3rem;
+}
+
+.autoS .form-control{
+    background-color: white;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 15px;
+    border-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-control::-webkit-input-placeholder { color: #aaaaaa; font-weight: 600; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #aaaaaa;font-weight: 600; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #aaaaaa;font-weight: 600; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #aaaaaa;font-weight: 600; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #aaaaaa;font-weight: 600; }  /* Microsoft Edge */
+
+
+.suggestions{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.suggestions p{
+    margin: 0;
+}
+
+
+.modalBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBody .sub1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.modalBody .sub1 p{
+    margin: 0;
+}
+
+.modalBody .sub1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 54px;
+}
+
+.modalBody .sub1 .sub1p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    left: 36px;
+}
+
+.modalBody .sub2{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.modalBody .sub3{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+    /* justify-content: space-between; */
+    /* align-items: center; */
+   
+}
+
+.modalBody .sub3 .sub3subh{
+    margin: 0;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.modal-content{
+    width: 400px !important;
+    border-color: white;
+    border-radius: 20px;
+}
